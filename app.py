@@ -35,6 +35,7 @@ def main():
     # save to disk
     db2 = Chroma.from_documents(docs, embedding_function, persist_directory="./chroma_db")
     docs = db2.similarity_search(query)
+    sleep()
 
 
 if __name__ == "__main__":
