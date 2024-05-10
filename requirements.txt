@@ -1,0 +1,5 @@
+langchain-chroma
+pysqlite3-binary
+langchain_community
+langchain_text_splitters
+sentence_transformers
